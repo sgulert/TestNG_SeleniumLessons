@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Suite">
+    <test name="Sample Test">
+        <classes>
+            <class name="cw.tests.Day14.C01_Annotations"></class>
+            <class name="cw.tests.Day14.C04_Enabled"></class>
+        </classes>
+    </test>
+    
+    <test name="Sec Sample Test">
+        <classes>
+            <class name="cw.tests.Day14.C03_DependsOn"></class>
+        </classes>
+    </test>
+</suite>
